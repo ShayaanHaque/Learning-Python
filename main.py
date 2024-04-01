@@ -1,6 +1,3 @@
-def main():
-    meow(3)
-
-def meow(n): 
-    for i in range(n):
-        print("meow")
+n = int(input("Enter a number "))
+while n <= 0:
+    n = n = int(input("Enter a number "))
